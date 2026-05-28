@@ -2,10 +2,10 @@
 	Name: AreaTerreno.cpp
 	Author: Rosa Marcella
 	Date: 05/03/26 11:25
-	Description: Programa para calcular a área de um terreno
+	Description: Programa para calcular a ï¿½rea de um terreno
 */
 
-//Sessão de importção
+//Sessï¿½o de importï¿½ï¿½o
 # include <stdio.h>
 # include <locale.h> 
 
@@ -20,7 +20,7 @@ main()
 	printf("Digite a medida do fundo: ");
 	scanf("%f", &fundo);
 	area = frente * fundo;
-	printf("A área do terreno é: %.3f", area);
+	printf("A ï¿½rea do terreno ï¿½: %.3f", area);
 
 	
 }//fim

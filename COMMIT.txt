@@ -1,0 +1,16 @@
+========================== 
+ CASO GERE ERRO NO COMMIT
+==========================
+
+# 1. Veja quais arquivos foram modificados ou criados
+git status
+
+# 2. Adicione os arquivos que você quer incluir no commit
+git add .
+# (O ponto adiciona TUDO. Se quiser um arquivo específico: git add nome-do-arquivo.txt)
+
+# 3. Faça o commit com uma mensagem explicativa
+git commit -m "Sua mensagem de commit aqui"
+
+# 4. E por fim
+git push origin nome-da-sua-branch(geralmente é 'main')
