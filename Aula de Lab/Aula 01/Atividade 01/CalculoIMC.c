@@ -20,7 +20,8 @@ int main(void)
     peso = altura = 0.0;
     
     printf("Para calcular seu IMC, digite seu nome:");
-    fgets(nome, 100, stdin);
+    scanf("%100[^\n]", nome);
+
     
     printf("\nDigite seu peso:");
     scanf("%f", &peso);
