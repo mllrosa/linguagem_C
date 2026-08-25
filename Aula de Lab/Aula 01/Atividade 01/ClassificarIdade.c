@@ -18,7 +18,7 @@ int main(void)
     int idade = 0;
 
     printf("Para classificar sua idade, digite seu nome:");
-    fgets(nome, 100, stdin);
+    scanf("%100[^\n]", nome); //fgets(nome, 100, stdin);
 
     printf("\nDigite sua idade:");
     scanf("%d", &idade);
