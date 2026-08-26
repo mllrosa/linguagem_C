@@ -1,0 +1,5 @@
+Passagem de Parâmetros
+    - Por Cópia
+    - Por Referência
+    
+Ponteiro
