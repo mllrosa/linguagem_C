@@ -2,13 +2,13 @@
 	Name: CalcularDelta.cpp
 	Author: Rosa Marcella
 	Date: 31/08/26 11:36
-	Description: Programa para receber tres valores(coeficientes de uma equação do segundo grau) e retornar o valor do delta.
+	Description: Programa para receber tres valores(coeficientes de uma equaÃ§Ã£o do segundo grau) e retornar o valor do delta.
 */
 
 # include <stdio.h>
 
-//Seção de Prototipação
-float CalcularDelta(int, int, int);
+//SeÃ§Ã£o de PrototipaÃ§Ã£o
+int CalcularDelta(int, int, int);
 
 int main()
 {
@@ -24,12 +24,12 @@ int main()
 	printf("Digite o valor de C:");
 	scanf("%d", &c);
 	
-	printf("O valor do Delta eh: %.2f", CalcularDelta(a, b, c));
+	printf("O valor do Delta eh: %d", CalcularDelta(a, b, c));
 }
 
-float CalcularDelta(int a, int b, int c)
+int CalcularDelta(int a, int b, int c)
 {
-	float delta = 0;
+	int delta = 0;
 	delta = (b*b) - 4 * a * c;
 	return delta; 
 }
